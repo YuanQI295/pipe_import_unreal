@@ -1,6 +1,7 @@
 import unreal
 import os
 
+# Constants
 PROPS_PATH = 'P:/Projects/MOCO/Reception/20240718/Set_Global_layout_tk001_high_28.ma/MOCO/01_ASSETS/TEXTURE/SETS/'
 UNREAL_IMPORT_PATH = "/Game/Assets/TEX/"
 
