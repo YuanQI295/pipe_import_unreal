@@ -14,3 +14,4 @@ this reassembles the materials and creates material instances and assign the ins
 ````
 instance_from_json.py
 ````
+this use json data to place every meshes in the scene with instances because there were a lot of room for optimization
