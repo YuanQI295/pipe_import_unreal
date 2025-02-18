@@ -49,9 +49,9 @@ def spawn_actor_from_asset():
                                                            asset_json_data.get('scale')[1],
                                                            asset_json_data.get('scale')[2])
 
-                        # asset_rotation = [asset_json_data.get('rotation')[0]-90.0,
-                        #                   asset_json_data.get('rotation')[1]*-1,
-                        #                   asset_json_data.get('rotation')[2]*-1]
+                        asset_rotation = [asset_json_data.get('rotation')[0]-90.0,
+                                          asset_json_data.get('rotation')[1]*-1,
+                                          asset_json_data.get('rotation')[2]*-1]
                         rotator = unreal.Rotator(roll=asset_json_data.get('rotation')[0]-90.0, pitch=asset_json_data.get('rotation')[1]*-1, yaw=asset_json_data.get('rotation')[2]*-1)
 
                         actor = unreal.EditorLevelLibrary.spawn_actor_from_object(asset, asset_translate_vector, rotator)
